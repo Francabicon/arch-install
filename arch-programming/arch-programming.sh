@@ -10,3 +10,6 @@ yay -S go
 
 #javascript
 yay -S nodejs npm
+
+#code editors
+yay -S visual-studio-code-bin code-features-insiders
