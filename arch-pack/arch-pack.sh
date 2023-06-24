@@ -25,4 +25,4 @@ yay -Sy adobe-source-han-serif-tw-fonts adobe-source-han-serif-hk-fonts adobe-so
 
 yay -S bash-completion python-click-completion git-completion ntfs-dkms
 
-yay -S brave firefox-developer-edition 
+yay -S brave firefox-developer-edition torbrowser-launcher
