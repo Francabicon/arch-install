@@ -10,7 +10,14 @@ cd yay
 
 makepkg -si
 
-sudo systemctl enable cups
+sudo systemctl enable cups-browsed.service
+sudo systemctl enable cups-lpd.service
+sudo systemctl enable cups-lpd.socket
+sudo systemctl enable cups.path
+sudo systemctl enable cups.service
+sudo systemctl enable cups.socket
+sudo systemctl enable bluetooth
+sudo systemctl enable NetworkManager
 
 yay -S linux-zen linux-zen-headers
 
