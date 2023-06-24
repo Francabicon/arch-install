@@ -25,6 +25,6 @@ yay -S adobe-source-han-serif-tw-fonts adobe-source-han-serif-hk-fonts adobe-sou
 
 yay -S bash-completion python-click-completion git-completion ntfs-dkms
 
-yay -S brave firefox-developer-edition torbrowser-launcher
+yay -S brave firefox-developer-edition torbrowser-launcher ferdium
 
 yay -Syyu
