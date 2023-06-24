@@ -18,3 +18,5 @@ sed -i "s/GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT=\"$new_value\
 
 # Update the GRUB bootloader configuration
 grub-mkconfig -o /boot/grub/grub.cfg
+
+sudo mkinitcpio -P
